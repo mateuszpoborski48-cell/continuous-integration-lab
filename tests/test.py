@@ -5,7 +5,7 @@ import unittest
 from src.app import squares
 
 
-class AppTests(unittest.TestCase):
+class AppTests(unittest.TestCase)
     def test_app(self):
         """Simple Tests"""
         self.assertEqual(squares(10), 100)
